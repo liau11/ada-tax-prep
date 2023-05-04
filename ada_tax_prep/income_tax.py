@@ -38,7 +38,7 @@ def calculate_tax_2020(income):
 
 DEDUCTION_CATEGORIES = ("charity", "mortgage", "child", "tuition", "healthcare")
 
-STANDARD_DEDUCTION_2020 = 10000
+STANDARD_DEDUCTION_2020 = 12400
 
 
 def calculate_deducted_income(income, deductions, standard_deduction):

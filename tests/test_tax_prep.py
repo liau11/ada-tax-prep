@@ -154,6 +154,7 @@ def new_valid_deductions():
         "child": 5000,
         "tuition": 5000,
         "healthcare": 5000,
+        "home office": 5000,
         "sales tax": 5000,
     }
 

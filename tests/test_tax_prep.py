@@ -224,3 +224,15 @@ def test_taxpayer_owing_tax_has_negative_return(few_valid_deductions):
     refund = taxpayer.calculate_return_2020()
 
     assert refund == -1003
+
+
+@pytest.fixture
+def new_valid_deductions():
+    return {
+        "charity": 5000,
+        "mortgage": 5000,
+        "child": 5000,
+        "tuition": 5000,
+        "healthcare": 5000,
+        "home office": 5000,
+    }

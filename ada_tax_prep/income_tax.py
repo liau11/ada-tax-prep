@@ -36,7 +36,14 @@ def calculate_tax_2020(income):
     return calculate_tax_by_bracket(income, TAX_BRACKETS_2020)
 
 
-DEDUCTION_CATEGORIES = ("charity", "mortgage", "child", "tuition", "healthcare")
+DEDUCTION_CATEGORIES = (
+    "charity",
+    "mortgage",
+    "child",
+    "tuition",
+    "healthcare",
+    "sales tax",
+)
 
 STANDARD_DEDUCTION_2020 = 12400
 
